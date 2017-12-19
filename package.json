@@ -1,0 +1,23 @@
+{
+  "name": "redux-form-storybook-example",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.17",
+    "@storybook/react": "^3.2.18",
+    "@storybook/addon-actions": "^3.2.18",
+    "@storybook/addon-links": "^3.2.18"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  }
+}
